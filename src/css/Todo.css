@@ -1,10 +1,20 @@
+.app-container {
+    max-width: 5000px;
+    margin: 40px auto;
+    background: rgba(255, 255, 255, 0.167);
+    border-radius: 12px;
+    box-shadow: 0 4px 24px rgba(0, 0, 0, 0.12);
+    padding: 32px 24px;
+    text-align: center;
+}
+
 body {
-    background: rgb(125, 173, 189)
-    /* background-size: cover;
+    background-position: center;
+    background: url("https://i.pinimg.com/736x/17/d3/15/17d31545061e548050e7bfcdbadfac15.jpg");
+    background-size: cover;
     min-height: 100vh;
     margin: 0;
     font-family: Arial, sans-serif;
-*/
 }
 
 form {
@@ -15,10 +25,10 @@ form {
 
 input[type="text"] {
     cursor:default;
-    background-color: #e8aeae;
+    background-color: #aed8e8;
     padding: 8px;
     font-size: 1rem;
-    border: 1px solid #e8aeae;
+    border: 1px solid #90c5f0;
     border-radius: 4px;
     flex: 1;
 }
@@ -59,7 +69,7 @@ button.delete-btn:hover {
 h2 {
     margin: 10px 0;
     padding: 10px;
-    background: #d6937550;
+    background: #ffffff;
     border-radius: 4px;
     font-weight: normal;
     font-size: 1.1rem;
@@ -73,7 +83,7 @@ input[type="checkbox"] {
 }
 
 h4 {
-    color: #7c0f0f;
+    color: #ffffff;
     display: block;
     margin-block-start: 1.33em;
     margin-block-end: 1.33em;
