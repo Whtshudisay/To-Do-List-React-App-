@@ -1,0 +1,16 @@
+.app-container {
+    max-width: 500px;
+    margin: 40px auto;
+    background: rgba(176, 139, 139, 0.507);
+    border-radius: 12px;
+    box-shadow: 0 4px 24px rgba(0,0,0,0.12);
+    padding: 32px 24px;
+    text-align: center; /* Center the text */
+}
+
+@media (max-width: 600px) {
+    .app-container {
+        max-width: 95vw;
+        padding: 16px 4vw;
+    }
+}
