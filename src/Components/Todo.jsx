@@ -45,7 +45,7 @@ export default function Todo() {
     return (
         <>
             <div>
-                {/* Todo input form */}
+                <p>Todo input form:</p>
                 <form onSubmit={handleSubmit}>
                     <input
                         onChange={handleChange}
@@ -56,7 +56,9 @@ export default function Todo() {
                     <button type="submit">Add</button>
                 </form>
             </div>
-            {/* List of todos */}
+
+            <p>List of Todos:</p>
+
             <ul style={{ listStyle: "none", padding: 0 }}>
                 {todos.map((item, idx) => (
                     <li key={idx}>
